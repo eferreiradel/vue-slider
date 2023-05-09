@@ -1,3 +1,9 @@
 import { createApp } from "vue";
 
-createApp({});
+createApp({
+  data() {
+    return {
+      activeThumg: "thumbs--active",
+    };
+  },
+});
